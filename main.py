@@ -152,7 +152,7 @@ def tomar_vacina(nome, profissao):
         print(f"""
         {nome}, prontamente avisou a enfermeira que aquela era a 'vacina de vento', e não o que tinha pedido.\n
         A enfermeira, constrangida com o ocorrido, pediu mil desculpas e foi correndo pegar a CORONAVAC.\n
-        Quando foi aplicado a vacina chinesa, ao qual era a mesma coisa que jogar 'cara ou coroa' (50% de se dar bem ou de se ferrar), \n
+        Quando foi aplicada a vacina chinesa, ao qual era a mesma coisa que jogar 'cara ou coroa' (50% de se dar bem ou de se ferrar), \n
         de repente {nome} se sentiu estranho, como se algo estivesse acontecendo com seu corpo.\n
         {nome} virou um jacaré comunista diante dos olhos da enfermeira. Mas, porém, contudo, todavia, entretanto, no entanto, não obstante,\n
         {nome} estava naquele momento imunizado contra covid-19, e era tudo o que importava.
@@ -161,22 +161,26 @@ def tomar_vacina(nome, profissao):
         imprime_mensagem_vencedor(f"Parabéns, você foi vacinado e venceu!!! Agora {nome} é um jacaré comunista :)")
     elif (codigo_vacina == 2):
         print(f"""
-        
+        {nome}, prontamente avisou a enfermeira que aquela era a 'vacina de vento', e não o que tinha pedido.\n
+        A enfermeira, constrangida com o ocorrido, pediu mil desculpas e foi correndo pegar a vacina OXFORD.\n
+        Quando foi aplicada a vacina, ao qual já vem com um microchipe de rastreamento dentro,\n de repente {nome} se sentiu estranho, como se algo estivesse acontecendo com seu corpo.\n
+        {nome} virou um jacaré comunista seguidor de Putin diante dos olhos da enfermeira. Mas, porém, contudo, todavia, entretanto, no entanto, não obstante,\n
+        {nome} estava naquele momento imunizado contra covid-19, e era tudo o que importava.
         """)
 
-        imprime_mensagem_vencedor(f"Parabéns, você foi vacinado e venceu!!! Agora {nome}... :)")
+        imprime_mensagem_vencedor(f"Parabéns, você foi vacinado e venceu!!! Agora {nome} é um jacaré comunista microchipado, e será rastreado pelo nova ordem mundial pelo resto da vida :)")
     elif (codigo_vacina == 3):
         print(f"""
         
         """)
 
-        imprime_mensagem_vencedor(f"Parabéns, você foi vacinado e venceu!!! Agora {nome}... :)")
+        imprime_mensagem_vencedor(f"Parabéns, você foi vacinado e venceu!!! Agora {nome} é um jacaré comunista mutante, e será estudado pelo butantan :)")
     elif (codigo_vacina == 4):
         print(f"""
         
         """)
 
-        imprime_mensagem_vencedor(f"Parabéns, você foi vacinado e venceu!!! Agora {nome}... :)")
+        imprime_mensagem_vencedor(f"Parabéns, você foi vacinado e venceu!!! Agora {nome} é um jacaré comunista espião de Putin em solo tupiniquim :)")
     else:
         imprime_mensagem_perdedor("Puxa, {nome} recebeu a 'vacina de vento', saiu todo feliz, porém pegou coronga e se ferrou :( VOCÊ PERDEU!!!")
 
@@ -303,7 +307,6 @@ else:
 # Condições de vitória (pelo menos 2)
 # 1: Tomar vacina
 # 2: Isolamento social
-# 3: Torcer para o time certo (corinthians)
 
 # Condições de derrota (pelo menos 4)
 # 1: Sair de casa sem mascara, sem distanciamento social
