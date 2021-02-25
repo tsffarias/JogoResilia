@@ -171,13 +171,23 @@ def tomar_vacina(nome, profissao):
         imprime_mensagem_vencedor(f"Parabéns, você foi vacinado e venceu!!! Agora {nome} é um jacaré comunista microchipado, e será rastreado pelo nova ordem mundial pelo resto da vida :)")
     elif (codigo_vacina == 3):
         print(f"""
-        
+        {nome}, prontamente avisou a enfermeira que aquela era a 'vacina de vento', e não o que tinha pedido.\n
+        A enfermeira, constrangida com o ocorrido, pediu mil desculpas e foi correndo pegar a vacina PFIZER.\n
+        Quando foi aplicada a vacina, ao qual muitos médicos diziam que utilizava uma técnologia nova que podem alterar o DNA e RNA,\n 
+        de repente {nome} se sentiu estranho, como se algo estivesse acontecendo com seu corpo.\n
+        {nome} virou um jacaré mutante socialista de Iphone diante dos olhos da enfermeira. Mas, porém, contudo, todavia, entretanto, no entanto, não obstante,\n
+        {nome} estava naquele momento imunizado contra covid-19, e era tudo o que importava.
         """)
 
-        imprime_mensagem_vencedor(f"Parabéns, você foi vacinado e venceu!!! Agora {nome} é um jacaré comunista mutante, e será estudado pelo butantan :)")
+        imprime_mensagem_vencedor(f"Parabéns, você foi vacinado e venceu!!! Agora {nome} é um jacaré mutante socialista, e será estudado pelo Instituto Butantan :)")
     elif (codigo_vacina == 4):
         print(f"""
-        
+        {nome}, prontamente avisou a enfermeira que aquela era a 'vacina de vento', e não o que tinha pedido.\n
+        A enfermeira, constrangida com o ocorrido, pediu mil desculpas e foi correndo pegar a vacina Sputnik V.\n
+        Quando foi aplicada a vacina, ao qual muitos médicos diziam que por ser uma ditadura que gosta de manipular dados para favorecer sua ideologia,\n 
+        de repente {nome} se sentiu estranho, como se algo estivesse acontecendo com seu corpo.\n
+        {nome} virou um jacaré comunista, espião de Putin e adorador de xi jinping diante dos olhos da enfermeira. Mas, porém, contudo, todavia, entretanto, no entanto, não obstante,\n
+        {nome} estava naquele momento imunizado contra covid-19, e era tudo o que importava.
         """)
 
         imprime_mensagem_vencedor(f"Parabéns, você foi vacinado e venceu!!! Agora {nome} é um jacaré comunista espião de Putin em solo tupiniquim :)")
