@@ -4,9 +4,8 @@ def linha():
 def conhecendo_usuario():
     print("Antes de começarmos, precisamos saber um pouco sobre você.")
     nome = input("Qual o seu nome: ")
-    idade = int(input("Qual a sua idade: "))
 
-    return nome.capitalize(), idade
+    return nome.capitalize()
 
 def veiculo(profissao):
     if (profissao == "motoboy"):
@@ -14,7 +13,7 @@ def veiculo(profissao):
     else:
         return "caminhão"
 
-def historia(nome, idade):
+def historia(nome):
     
     print(f"""
     Em uma galáxia não tão distante assim, {nome} se vê em uma enrascada no planeta Terra. \nUm vírus ataca novamente, e dizima grande parte dos lacradores e mitadores mundiais.
@@ -22,18 +21,18 @@ def historia(nome, idade):
     Agora, {nome} pode ser um motoboy, e ser aclamado por toda população mundial, \nou ser um caminhoneiro e ser esquecido de todo horizonte imaginativo da sociedade.
     """)
     linha()
-    resposta_profissao = int(input("Você quer ser motoboy ou caminhoneiro? (digite 1 para motoboy ou 2 para caminhoneiro)\nDigite o código = "))
+    resposta_profissao = int(input("Você quer ser motoboy ou caminhoneiro? (1) motoboy (2) caminhoneiro\nDigite o código = "))
     linha()
 
     if (resposta_profissao == 1):
-        historia_parte_2(nome, "motoboy", idade)
+        historia_parte_2(nome, "motoboy")
     elif (resposta_profissao == 2):
-        historia_parte_2(nome, "caminhoneiro", idade)
+        historia_parte_2(nome, "caminhoneiro")
     else:
         codigo_invalido()
 
 
-def historia_parte_2(nome, profissao, idade):
+def historia_parte_2(nome, profissao):
     
     if profissao == 'motoboy':
         print(f"""
@@ -47,7 +46,7 @@ def historia_parte_2(nome, profissao, idade):
         linha()
 
         if (resposta == 1):
-            historia_lanchonete(nome, profissao, idade)
+            historia_lanchonete(nome, profissao)
         elif (resposta == 2):
             historia_casa_vovo(nome)
         else:
@@ -66,7 +65,7 @@ def codigo_invalido():
     else:
         print("\n============= FIM DE JOGO =============\n")
 
-def historia_lanchonete(nome, profissao, idade):
+def historia_lanchonete(nome, profissao):
 
     print(f"""
     {nome} foi então a melhor lanchone da cidade, a Pobr's fast food. Fez seu pedido favorito, um 'hamburgão topzera'.\n
@@ -97,7 +96,7 @@ def historia_lanchonete(nome, profissao, idade):
             "Você quer ir se vacinar agora ou ir pra universidade? (1) vacinar (2) universidade\nDigite o código = "))
         linha()
         if (resposta == 1):
-            historia_posto_saude(nome, profissao, idade)
+            historia_posto_saude(nome, profissao)
         elif (resposta == 2):
             historia_universidade(nome)
         else:
@@ -133,11 +132,57 @@ def historia_casa_vovo(nome):
     imprime_mensagem_perdedor("Puxa, você ferrou com sua vovó. VOCÊ PERDEU!!!")
 
 
-def tomar_vacina(nome, profissao, idade):
-    imprime_mensagem_perdedor("Parabéns, você foi vacinado e venceu!!!")
+def tomar_vacina(nome, profissao):
+
+    print(f"""
+    {nome}, com toda sua sabedoria de um bom {profissao}, aceita ser vacinado, com esperança que aquele ato fosse fazer que sua vida voltasse ao normal.\n
+    - "Qual vacina deseja tomar {nome}?", disse a enfermeira.
+    """)
+
+    linha()
+    codigo_vacina = int(input("Qual vacina você quer?\n(1) CORONAVAC\n(2) OXFORD\n(3) PFIZER\n(4) Sputnik V\nDigite o código = "))
+    linha()
+
+    print(f"""
+    A enfermeira pegou a seringa, mas não tinha nada dentro. Ela pegou a famosa 'vacina de vento'.\n
+    Além disso, ela nem apertou o êmbolo da seringa na hora de aplicar a vacina.\n
+    """)
+
+    if (codigo_vacina == 1):
+        print(f"""
+        {nome}, prontamente avisou a enfermeira que aquela era a 'vacina de vento', e não o que tinha pedido.\n
+        A enfermeira, constrangida com o ocorrido, pediu mil desculpas e foi correndo pegar a CORONAVAC.\n
+        Quando foi aplicado a vacina chinesa, ao qual era a mesma coisa que jogar 'cara ou coroa' (50% de se dar bem ou de se ferrar), \n
+        de repente {nome} se sentiu estranho, como se algo estivesse acontecendo com seu corpo.\n
+        {nome} virou um jacaré comunista diante dos olhos da enfermeira. Mas, porém, contudo, todavia, entretanto, no entanto, não obstante,\n
+        {nome} estava naquele momento imunizado contra covid-19, e era tudo o que importava.
+        """)
+
+        imprime_mensagem_vencedor(f"Parabéns, você foi vacinado e venceu!!! Agora {nome} é um jacaré comunista :)")
+    elif (codigo_vacina == 2):
+        print(f"""
+        
+        """)
+
+        imprime_mensagem_vencedor(f"Parabéns, você foi vacinado e venceu!!! Agora {nome}... :)")
+    elif (codigo_vacina == 3):
+        print(f"""
+        
+        """)
+
+        imprime_mensagem_vencedor(f"Parabéns, você foi vacinado e venceu!!! Agora {nome}... :)")
+    elif (codigo_vacina == 4):
+        print(f"""
+        
+        """)
+
+        imprime_mensagem_vencedor(f"Parabéns, você foi vacinado e venceu!!! Agora {nome}... :)")
+    else:
+        imprime_mensagem_perdedor("Puxa, {nome} recebeu a 'vacina de vento', saiu todo feliz, porém pegou coronga e se ferrou :( VOCÊ PERDEU!!!")
 
 
-def historia_posto_saude(nome, profissao, idade):
+
+def historia_posto_saude(nome, profissao):
 
     veiculo_usuario = veiculo(profissao)
 
@@ -155,7 +200,7 @@ def historia_posto_saude(nome, profissao, idade):
     resposta = int(input("Você quer ser vacinado? (1) sim (2) não\nDigite o código = "))
     linha()
     if (resposta == 1):
-        tomar_vacina(nome, profissao, idade)
+        tomar_vacina(nome, profissao)
     else:
         print(f"""
         Puxa, como {nome} não se vacinou, pegou coronga na lanchonete e se ferrou :(\n
@@ -204,10 +249,10 @@ linha()
 print("O JACARÉ MUTANTE COMUNISTA".center(50))
 linha()
 
-nome, idade = conhecendo_usuario()
+nome = conhecendo_usuario()
 linha()
 
-historia(nome, idade)
+historia(nome)
 
 
 # ser entregador do iFood ou Caminhoneiro (escolha, ser ovacionado pela imprensa como entregador, ou esquecido por ser um Caminhoneiro)
