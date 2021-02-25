@@ -133,16 +133,16 @@ def historia_casa_vovo(nome):
     imprime_mensagem_perdedor("Puxa, você ferrou com sua vovó. VOCÊ PERDEU!!!")
 
 
-def tomar_vacina():
-    pass
+def tomar_vacina(nome, profissao, idade):
+    imprime_mensagem_perdedor("Parabéns, você foi vacinado e venceu!!!")
 
 
 def historia_posto_saude(nome, profissao, idade):
 
-    veiculo = veiculo(profissao)
+    veiculo_usuario = veiculo(profissao)
 
     print(f"""
-    {nome}, com toda sua prudencia e sofisticação, usando 2 mascaras e respeitando o isolamento social, chegou de {veiculo} ao posto de saúde para se vacinar.\n
+    {nome}, com toda sua prudencia e sofisticação, usando 2 mascaras e respeitando o isolamento social, chegou de {veiculo_usuario} ao posto de saúde para se vacinar.\n
     Antes de aplicarem a vacina, a enfermeira o avisou que a farmacêutica da vacina tem 'isenção de responsabilidade',\n 
     ou seja, não tem responsabilidade por eventuais efeitos colaterais da vacina. {nome} achou tudo muito estranho.\n
     - "Isso é estrano, não? seria como se eu vende-se uma TV pra você, e quando você liga-se em sua casa, eu fala-se 'problema é seu!'...", disse {nome}.
@@ -155,13 +155,15 @@ def historia_posto_saude(nome, profissao, idade):
     resposta = int(input("Você quer ser vacinado? (1) sim (2) não\nDigite o código = "))
     linha()
     if (resposta == 1):
-        tomar_vacina()
+        tomar_vacina(nome, profissao, idade)
     else:
-        pass
-        # caso não tome, ele morre de cancer depois pois devido a pandemia, as quimioterapias dele foram canseladas pois só existia uma doença no mundo em 2020
-        #imprime_mensagem_perdedor(f"Puxa, como {nome} não se vacinou, pegou coronga na lanchonete e se ferrou :( VOCÊ PERDEU!!!")
-
-    imprime_mensagem_perdedor("Parabéns, você foi vacinado e venceu!!!")
+        print(f"""
+        Puxa, como {nome} não se vacinou, pegou coronga na lanchonete e se ferrou :(\n
+        Porém, devido ao tratamento precoce, felizmente {nome} conseguiu se livrar do coronga.\n
+        Entretanto, infelizmente {nome} morre de cancer pouco tempo depois.\n
+        Devido a pandemia, seu tratamento de quimioterapia foi cancelado pois só existia uma doença no mundo em 2020.\n
+        """)
+        imprime_mensagem_perdedor(f"Ou seja, {nome} se ferrou :( VOCÊ PERDEU!!!")
 
 
 def imprime_mensagem_vencedor(mensagem):
