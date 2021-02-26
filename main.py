@@ -36,25 +36,33 @@ def historia_parte_2(nome, profissao):
     
     if profissao == 'motoboy':
         print(f"""
-        Graças a campanha 'fique em casa, deixe um motoboy morrer por você', {nome} conseguiu um emprego rápido para poder ajudar sua familia.\n
+        Graças a campanha 'fique em casa, deixe um {profissao} morrer por você', {nome} conseguiu um emprego rápido para poder ajudar sua familia.\n
         Depois de um longo dia de trabalho entregando comida para funcionários públicos trancados em seus flats, ficou com fome.\n
         Percebeu que a melhor lanchonete da cidade fica um pouco longe, mas que sua querida vovó morava ali perto.
         """)
-
-        linha()
-        resposta = int(input("Você quer ir pra casa da vovó ou pra lanchonete? (1) lanchonete (2) vovó)\nDigite o código = "))
-        linha()
-
-        if (resposta == 1):
-            historia_lanchonete(nome, profissao)
-        elif (resposta == 2):
-            historia_casa_vovo(nome)
-        else:
-            codigo_invalido()
     else:
         print(f"""
-        {nome} - {profissao}
+        Graças a campanha 'fique em casa, deixe um {profissao} morrer por você', {nome} conseguiu um emprego rápido para poder ajudar sua familia.\n
+        Ao dirigir o caminhão pelas cidades do seu estado, percebeu que não ficou apenas sem o prestígio da população mundial, mas como também sem almoço.\n
+        Vários Joãozinhos tranca rua fecharam os restaurantes de seu percurso, o que se não fosse os moradores que distribuiam marmitex nas BRs, estaria ferrado e com anorexia.\n
+        Viu pessoas sendo presas por estarem sentadas em praça publica, mesmo usando 2 mascaras, e pensou que o mundo foi pro buraco.\n        
+        Ao ver toda aquela picaretagem, concordou com a famosa frase de Jordan Peterson: "Life is suffering" (A vida é sofrimento).\n 
+        Pois parece que nada é tão ruim, que não possa ser piorado por um Joãozinho tranca rua de calças apertadas, pois agora terá toque de recolher e rastreamento de celular.\n
+        Ao pensar em tudo isso, ficou com fome, e ao notar que estava passando por sua cidade natal, ficou feliz da vida.\n
+        Percebeu que a melhor lanchonete da cidade fica um pouco longe, mas que sua querida vovó morava ali perto.\n
         """)
+    
+    linha()
+    resposta = int(input("Você quer ir pra casa da vovó ou pra lanchonete? (1) lanchonete (2) vovó)\nDigite o código = "))
+    linha()
+
+    if (resposta == 1):
+        historia_lanchonete(nome, profissao)
+    elif (resposta == 2):
+        historia_casa_vovo(nome)
+    else:
+        codigo_invalido()
+        
     
 
 def codigo_invalido():
@@ -267,61 +275,3 @@ nome = conhecendo_usuario()
 linha()
 
 historia(nome)
-
-
-# ser entregador do iFood ou Caminhoneiro (escolha, ser ovacionado pela imprensa como entregador, ou esquecido por ser um Caminhoneiro)
-# ele cria uma conta no nubank pra sua avó. Ele envia dinheiro pra ela poder comprar no Ifood comida, e conversa com ela todo dia pelo zoom.
-# ele ve a noticia que pode se vacinar, porem ele escolhe ir pra casa da vovo e pega covid e mata a veia e ele mesmo.
-# ele ve a noticia que pode se vacinar, porem ele escolhe ir na lanchonete comer algo, porem fica em pé e não sentado, e pega covid e morre.
-
-'''
-print("1. CORONAVAC")
-print("2. OXFORD")
-print("3. PFIZER")
-vacina russa Sputnik V - vira comunista
-fisico de atleta
-
-vacina = int(input("Qual vacina você tomou? Digite 1, 2 ou 3: "))
-
-if (vacina == 1) or (vacina == 2) or (vacina == 3):
-    print("Parabéns, você está protegido!")
-    if vacina == 1:
-        print("E você virou um jacaré!")
-    elif vacina == 2:
-        print("E agora você está microchipado")
-    else:
-        print("E agora você é mutante!")
-else:
-    print("Você não está protegido! #Ficaemcasa")
-'''
-
-# Um tema específico: Vacinação Covid 19
-
-# Enredo:
-
-# Título: O Jacaré mutante
-
-# Locais diferentes (pelo menos 3)
-# 1: Posto de saude
-# 2: Universidade
-# 3: Casa da vóvó
-# 4: Lanchonete
-
-# Personagens diferentes (pelo menos 3)
-# 1: Usuário
-# 2: Vovó
-# 3: Médico
-# 4: Caminhoneiros
-# 5: Entregador Ifood
-
-# Condições de vitória (pelo menos 2)
-# 1: Tomar vacina
-# 2: Isolamento social
-
-# Condições de derrota (pelo menos 4)
-# 1: Sair de casa sem mascara, sem distanciamento social
-# 2: Fazer manifestação agloberando
-# 3: Ir pra casa da vovó
-# 4: Jogar futebol com os amigos (felipe neto)
-# 5: Comer comida em pé pega covid, mas se sentar não pega
-# 6: Pegar onibus ou metro em determinado horario não pega, mas depois das 10h pega
