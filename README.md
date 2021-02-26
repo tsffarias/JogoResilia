@@ -8,7 +8,7 @@
 ## **Locais diferentes**
 - Posto de saude
 - Universidade
-- Casa da vóvó
+- Casa da vovó
 - Lanchonete
 ---
 ## **Personagens diferentes**
@@ -16,13 +16,13 @@
 - Vovó
 - Enfermeira
 ---
-## **Condições de vitória**
+## **Condições de vitória** :trophy:
 - Tomar vacina CORONAVAC
 - Tomar vacina OXFORD
 - Tomar vacina PFIZER
 - Tomar vacina Sputnik V
 ---
-## **Condições de derrota**
+## **Condições de derrota** :skull:
 - Ir pra casa da vovó
 - Comer comida em pé pega covid
 - Ir pra faculdade

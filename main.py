@@ -26,11 +26,9 @@ def historia(nome):
 
     if (resposta_profissao == 1):
         historia_parte_2(nome, "motoboy")
-    elif (resposta_profissao == 2):
-        historia_parte_2(nome, "caminhoneiro")
     else:
-        codigo_invalido()
-
+        historia_parte_2(nome, "caminhoneiro")
+    
 
 def historia_parte_2(nome, profissao):
     
@@ -53,25 +51,14 @@ def historia_parte_2(nome, profissao):
         """)
     
     linha()
-    resposta = int(input("Você quer ir pra casa da vovó ou pra lanchonete? (1) lanchonete (2) vovó)\nDigite o código = "))
+    resposta = int(input("Você quer ir pra casa da vovó ou pra lanchonete? (1) lanchonete (2) vovó\nDigite o código = "))
     linha()
 
     if (resposta == 1):
         historia_lanchonete(nome, profissao)
-    elif (resposta == 2):
+    else:
         historia_casa_vovo(nome)
-    else:
-        codigo_invalido()
         
-    
-
-def codigo_invalido():
-    print("*** Código inválido ***".center(50))
-    resposta = int(input("Quer começar o jogo novamente? (1) sim ou (2) não = "))
-    if (resposta == 1):
-        pass
-    else:
-        print("\n============= FIM DE JOGO =============\n")
 
 def historia_lanchonete(nome, profissao):
 
@@ -91,7 +78,7 @@ def historia_lanchonete(nome, profissao):
         ao ficar em pé pega coronga, mas se esta sentado está a salvo de tudo. Como ficou de pé, pegou Coronga e se ferrou :(
         """)
         imprime_mensagem_perdedor("Puxa, como você não tem fisico de atleta, você morreu!!!")
-    elif (resposta == 2):
+    else:
         print(f"""
         Comendo tranquilamento sentado o seu hamburgão, quando de repente uma ótima noticia apareceu no canal da rede gróbis, em uma TV a sua frente.\n
         Um militante falava que naquele mesmo dia, perto de onde estava {nome}, havia um posto de saúde que estava vacinando pessoas contra peste chinesa.\n
@@ -109,10 +96,6 @@ def historia_lanchonete(nome, profissao):
             historia_universidade(nome)
         else:
             imprime_mensagem_perdedor(f"Puxa, como {nome} não se vacinou, pegou coronga na lanchonete e se ferrou :( VOCÊ PERDEU!!!")
-
-    else:
-        codigo_invalido()
-
     
 
 def historia_universidade(nome):
@@ -267,11 +250,21 @@ def imprime_mensagem_perdedor(mensagem):
     print("       \_______/           ")
 
 
-linha()
-print("O JACARÉ MUTANTE COMUNISTA".center(50))
-linha()
 
-nome = conhecendo_usuario()
-linha()
 
-historia(nome)
+while (True):
+    linha()
+    print("O JACARÉ MUTANTE COMUNISTA".center(50))
+    linha()
+
+    nome = conhecendo_usuario()
+    linha()
+
+    historia(nome)
+
+    resposta = int(input("\nQuer começar o jogo novamente? (1) sim ou (2) não = "))
+    if (resposta == 2):
+        break
+    
+
+print("\n============= FIM DE JOGO =============\n")
