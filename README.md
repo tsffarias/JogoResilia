@@ -1,4 +1,4 @@
-> Jogo Resilia :heart:
+# _**Jogo Resilia**_ 🕹️ 
 
 ## **Título: O JACARÉ MUTANTE COMUNISTA :crocodile:**
 
