@@ -23,7 +23,7 @@ def historia(nome):
     
     print(f"""
     Em uma galáxia não tão distante assim, {nome} se vê em uma enrascada no planeta Terra. \nUm vírus ataca novamente, e dizima grande parte dos lacradores e mitadores mundiais.
-    Graças aos Joãozinhos tranca rua, ele perdeu seu emprego de garçon, \ne agora precisa procurar um novo emprego rápido, antes que sua familia morra de fome.\n
+    Graças aos Joãozinhos tranca rua, perdeu seu emprego de garçon, \ne agora precisa procurar um novo emprego rápido, antes que sua familia morra de fome.\n
     Agora, {nome} pode ser um motoboy, e ser aclamado por toda população mundial, \nou ser um caminhoneiro e ser esquecido de todo horizonte imaginativo da sociedade.
     """)
     linha()
@@ -48,10 +48,10 @@ def historia_parte_2(nome, profissao):
         print(f"""
         Graças a campanha 'fique em casa, deixe um {profissao} morrer por você', {nome} conseguiu um emprego rápido para poder ajudar sua familia.\n
         Ao dirigir o caminhão pelas cidades do seu estado, percebeu que não ficou apenas sem o prestígio da população mundial, mas como também sem almoço.\n
-        Vários Joãozinhos tranca rua fecharam os restaurantes de seu percurso, o que se não fosse os moradores que distribuiam marmitex nas BRs, estaria ferrado e com anorexia.\n
-        Viu pessoas sendo presas por estarem sentadas em praça publica, mesmo usando 2 mascaras, e pensou que o mundo foi pro buraco.\n        
+        Vários Joãozinhos tranca rua fecharam os restaurantes de seu percurso, o que se não fosse os moradores que distribuiam marmitex nas BRs, já estaria em um cemitério.\n
+        Viu pessoas sendo presas por estarem sentadas em praça publica, mesmo usando 2 mascaras. E pensou que o mundo foi pro buraco.\n        
         Ao ver toda aquela picaretagem, concordou com a famosa frase de Jordan Peterson: "Life is suffering" (A vida é sofrimento).\n 
-        Pois parece que nada é tão ruim, que não possa ser piorado por um Joãozinho tranca rua de calças apertadas, pois agora terá toque de recolher e rastreamento de celular.\n
+        Pois parece que nada é tão ruim, que não possa ser piorado por um pandeminion, pois agora terá toque de recolher e rastreamento de celular.\n
         Ao pensar em tudo isso, ficou com fome, e ao notar que estava passando por sua cidade natal, ficou feliz da vida.\n
         Percebeu que a melhor lanchonete da cidade fica um pouco longe, mas que sua querida vovó morava ali perto.\n
         """)
@@ -106,7 +106,7 @@ def historia_lanchonete(nome, profissao):
 
 def historia_universidade(nome):
     print(f"""
-    Ao chegar na universidade, {nome} se deu conta que fica quase impossivel manter o distanciamento social naquele lugar.\n
+    Ao chegar na universidade, {nome} se deu conta que fica quase impossivel manter o distanciamento social naquele lugar que só tem balbúrdia.\n
     Porém, como sempre vai a academia 3 dias por semana, pensou que se pegar coronga, não iria sentir quase nada e poderia seguir com seus estudos.\n
     Dito e feito, ou quase isso, {nome} pegou coronga sim, mas vai estudar deitado assim como faz em casa, só que estará deitado em um lugar mais pacífico.\n
     Um cemitério :(
@@ -121,7 +121,7 @@ def historia_casa_vovo(nome):
     print(f"""
     Ao chegar a casa dá vovó, {nome} comeu o seu prato favorito, pois como toda vovó, o obrigou a comer feito um condenado.\n
     Porém, {nome} se esqueceu que sua querida vovó faz parte do grupo de risco, graças a sua idade e suas comorbidades.\n
-    Devido {nome} sair para trabalhar, de alguma forma, ele passou a peste chinesa para sua vovó, que veio a falecer.
+    Devido {nome} sair para trabalhar, de alguma forma, passou a peste chinesa para sua vovó, que veio a falecer.
     """)
 
     linha()

@@ -3,11 +3,11 @@
 
 ## **Título: O JACARÉ MUTANTE COMUNISTA :crocodile:**
 
-**Enredo:** Cidadão se vê ferrado e desempregado na pandemia, e escolhe suas unicas opções de arrumar emprego, ser motoboy ou ser caminhoneiro. Fica com fome e vai a lanchone que ele ama, e recebe a noticia tão aguardada que todos poderiam enfim se vacinar naquele dia. O cidadão corre para o posto de saúde para conseguir se vacinar, e algo muito amedrontador ocorre naquele lugar.
+**Enredo:** Cidadão se vê ferrado e desempregado na pandemia, e escolhe suas unicas opções de arrumar emprego, ser motoboy ou ser caminhoneiro. Fica com fome e vai a lanchonete que ele ama, e recebe a noticia tão aguardada que todos poderiam enfim se vacinar naquele dia. O cidadão corre para o posto de saúde para conseguir se vacinar, e algo muito amedrontador ocorre naquele lugar.
 
 ---
 ## **Locais**
-- Posto de saude
+- Posto de saúde
 - Universidade
 - Casa da vovó
 - Lanchonete Pobr's fast food
