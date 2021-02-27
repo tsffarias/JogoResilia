@@ -1,4 +1,5 @@
-# _**Jogo Resilia**_ 🕹️ 
+<h1 align="center">Jogo Resilia 🕹️</h1> 
+
 > Jogo satírico sobre a pandemia do covid-19 no Brasil.
 
 ## **Título: O JACARÉ MUTANTE COMUNISTA :crocodile:**
