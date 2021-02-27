@@ -6,13 +6,13 @@
 **Enredo:** Cidadão se vê ferrado e desempregado na pandemia, e escolhe suas unicas opções de arrumar emprego, ser motoboy ou ser caminhoneiro. Fica com fome e vai a lanchone que ele ama, e recebe a noticia tão aguardada que todos poderiam enfim se vacinar naquele dia. O cidadão corre para o posto de saúde para conseguir se vacinar, e algo muito amedrontador ocorre naquele lugar.
 
 ---
-## **Locais diferentes**
+## **Locais**
 - Posto de saude
 - Universidade
 - Casa da vovó
-- Lanchonete
+- Lanchonete Pobr's fast food
 ---
-## **Personagens diferentes**
+## **Personagens**
 - Usuário
 - Vovó
 - Enfermeira
@@ -29,6 +29,6 @@
 - Ir pra faculdade
 - Não se vacinar
 ---
-## **Fluxograma História**
+## **Fluxograma História** :scroll:
 
 ![Markdown](fluxograma_jacare_mutante_comunista.png)
