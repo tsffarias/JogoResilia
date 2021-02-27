@@ -39,22 +39,9 @@ def historia(nome):
 def historia_parte_2(nome, profissao):
     
     if profissao == 'motoboy':
-        print(f"""
-        Graças a campanha 'fique em casa, deixe um {profissao} morrer por você', {nome} conseguiu um emprego rápido para poder ajudar sua familia.\n
-        Depois de um longo dia de trabalho entregando comida para funcionários públicos trancados em seus flats, ficou com fome.\n
-        Percebeu que a melhor lanchonete da cidade fica um pouco longe, mas que sua querida vovó morava ali perto.
-        """)
+        print(f"\nGraças a campanha 'fique em casa, deixe um {profissao} morrer por você', {nome} conseguiu um emprego rápido para poder ajudar sua familia.\nDepois de um longo dia de trabalho entregando comida para funcionários públicos trancados em seus flats, ficou com fome.\nPercebeu que a melhor lanchonete da cidade fica um pouco longe, mas que sua querida vovó morava ali perto.\n")
     else:
-        print(f"""
-        Graças a campanha 'fique em casa, deixe um {profissao} morrer por você', {nome} conseguiu um emprego rápido para poder ajudar sua familia.\n
-        Ao dirigir o caminhão pelas cidades do seu estado, percebeu que não ficou apenas sem o prestígio da população mundial, mas como também sem almoço.\n
-        Vários Joãozinhos tranca rua fecharam os restaurantes de seu percurso, o que se não fosse os moradores que distribuiam marmitex nas BRs, já estaria em um cemitério.\n
-        Viu pessoas sendo presas por estarem sentadas em praça publica, mesmo usando 2 mascaras. E pensou que o mundo foi pro buraco.\n        
-        Ao ver toda aquela picaretagem, concordou com a famosa frase de Jordan Peterson: "Life is suffering" (A vida é sofrimento).\n 
-        Pois parece que nada é tão ruim, que não possa ser piorado por um pandeminion, pois agora terá toque de recolher e rastreamento de celular.\n
-        Ao pensar em tudo isso, ficou com fome, e ao notar que estava passando por sua cidade natal, ficou feliz da vida.\n
-        Percebeu que a melhor lanchonete da cidade fica um pouco longe, mas que sua querida vovó morava ali perto.\n
-        """)
+        print(f"""\nGraças a campanha 'fique em casa, deixe um {profissao} morrer por você', {nome} conseguiu um emprego rápido para poder ajudar sua familia.\nAo dirigir o caminhão pelas cidades do seu estado, percebeu que não ficou apenas sem o prestígio da população mundial, mas como também sem almoço.\nVários Joãozinhos tranca rua fecharam os restaurantes de seu percurso, o que se não fosse os moradores que distribuiam marmitex nas BRs, já estaria em um cemitério.\nViu pessoas sendo presas por estarem sentadas em praça publica, mesmo usando 2 mascaras. E pensou que o mundo foi pro buraco.\nAo ver toda aquela picaretagem, concordou com a famosa frase de Jordan Peterson: "Life is suffering" (A vida é sofrimento).\nPois parece que nada é tão ruim, que não possa ser piorado por um pandeminion, pois agora terá toque de recolher e rastreamento de celular.\nAo pensar em tudo isso, ficou com fome, e ao notar que estava passando por sua cidade natal, ficou feliz da vida.\nPercebeu que a melhor lanchonete da cidade fica um pouco longe, mas que sua querida vovó morava ali perto.\n""")
     
     linha()
     resposta = int(input("Você quer ir pra casa da vovó ou pra lanchonete? (1) lanchonete (2) vovó\nDigite o código = "))
@@ -75,26 +62,17 @@ def historia_lanchonete(nome, profissao):
     """)
 
     linha()
-    resposta = int(input(
-    	"Você quer comer sentado ou em pé no balcão da Pobr's fast food? (1) em pé (2) sentado\nDigite o código = "))
+    resposta = int(input("Você quer comer sentado ou em pé no balcão da Pobr's fast food? (1) em pé (2) sentado\nDigite o código = "))
     linha()
 
     if (resposta == 1):
-        print(f"""Ao comer em pé, {nome} se esqueceu da noticia que assistiu na rede gróbis, ao qual falava que em estabelecimentos como aquele,\n 
-        ao ficar em pé pega coronga, mas se esta sentado está a salvo de tudo. Como ficou de pé, pegou Coronga e se ferrou :(
-        """)
-        imprime_mensagem_perdedor("Puxa, como você não tem fisico de atleta, você morreu!!!")
+        print(f"\nAo comer em pé, {nome} se esqueceu da noticia que assistiu na rede gróbis, ao qual falava que em estabelecimentos como aquele,\nao ficar em pé pega coronga, mas se está sentado, está a salvo de todas as doenças do mundo. Como ficou de pé, pegou Coronga e se ferrou :(")
+        imprime_mensagem_perdedor("\nPuxa, como você não tem fisico de atleta, você morreu!!!")
     else:
-        print(f"""
-        Comendo tranquilamento sentado o seu hamburgão, quando de repente uma ótima noticia apareceu no canal da rede gróbis, em uma TV a sua frente.\n
-        Um militante falava que naquele mesmo dia, perto de onde estava {nome}, havia um posto de saúde que estava vacinando pessoas contra peste chinesa.\n
-        {nome}, uma pessoa muito prudente e inteligente, perguntou se seria uma boa coisa sair daquele lugar e ir se vacinar logo, para que voltasse a ter uma vida minimamente normal.
-        Porém, ao mesmo tempo lembrou que seu semestre na universidade ia começar hoje, mais precisamente daqui a 1 hora teria sua primeira aula.
-        """)
+        print(f"""\nComendo tranquilamento sentado o seu hamburgão, quando de repente uma ótima noticia apareceu no canal da rede gróbis, em uma TV a sua frente.\nUm militante falava que naquele mesmo dia, perto de onde estava {nome}, havia um posto de saúde que estava vacinando pessoas contra peste chinesa.\n{nome}, uma pessoa muito prudente e inteligente, perguntou se seria uma boa coisa sair daquele lugar e ir se vacinar logo, para que voltasse a ter uma vida minimamente normal.\nPorém, ao mesmo tempo lembrou que seu semestre na universidade ia começar hoje, mais precisamente daqui a 1 hora teria sua primeira aula.\n""")
 
         linha()
-        resposta = int(input(
-            "Você quer ir se vacinar agora ou ir pra universidade? (1) vacinar (2) universidade\nDigite o código = "))
+        resposta = int(input("Você quer ir se vacinar agora ou ir pra universidade? (1) vacinar (2) universidade\nDigite o código = "))
         linha()
         if (resposta == 1):
             historia_posto_saude(nome, profissao)
@@ -140,56 +118,26 @@ def tomar_vacina(nome, profissao):
     codigo_vacina = int(input("Qual vacina você quer?\n(1) CORONAVAC\n(2) OXFORD\n(3) PFIZER\n(4) Sputnik V\nDigite o código = "))
     linha()
 
-    print(f"""
-    A enfermeira pegou a seringa, mas não tinha nada dentro. Ela pegou a famosa 'vacina de vento'.\n
-    Além disso, ela nem apertou o êmbolo da seringa na hora de aplicar a vacina.\n
-    """)
+    print(f"\nA enfermeira pegou a seringa, mas não tinha nada dentro. Ela pegou a famosa 'vacina de vento'.\nAlém disso, ela nem apertou o êmbolo da seringa na hora de aplicar a vacina.\n")
 
     if (codigo_vacina == 1):
-        print(f"""
-        {nome}, prontamente avisou a enfermeira que aquela era a 'vacina de vento', e não o que tinha pedido.\n
-        A enfermeira, constrangida com o ocorrido, pediu mil desculpas e foi correndo pegar a CORONAVAC.\n
-        Quando foi aplicada a vacina chinesa, ao qual era a mesma coisa que jogar 'cara ou coroa' (50% de se dar bem ou de se ferrar), \n
-        de repente {nome} se sentiu estranho, como se algo estivesse acontecendo com seu corpo.\n
-        {nome} virou um jacaré comunista diante dos olhos da enfermeira. Mas, porém, contudo, todavia, entretanto, no entanto, não obstante,\n
-        {nome} estava naquele momento imunizado contra covid-19, e era tudo o que importava.
-        """)
-
+        print(f"\n{nome}, prontamente avisou a enfermeira que aquela era a 'vacina de vento', e não o que tinha pedido.\nA enfermeira, constrangida com o ocorrido, pediu mil desculpas e foi correndo pegar a CORONAVAC.\nQuando foi aplicada a vacina chinesa, ao qual era a mesma coisa que jogar 'cara ou coroa' (50% de se dar bem ou de se ferrar),\nde repente {nome} se sentiu estranho, como se algo estivesse acontecendo com seu corpo.\n{nome} virou um jacaré comunista diante dos olhos da enfermeira. Mas, porém, contudo, todavia, entretanto, no entanto, não obstante,\n{nome} estava naquele momento imunizado contra covid-19, e era tudo o que importava.\n")
         imprime_mensagem_vencedor(f"Parabéns, você foi vacinado e venceu!!! Agora {nome} é um jacaré comunista :)")
+
     elif (codigo_vacina == 2):
-        print(f"""
-        {nome}, prontamente avisou a enfermeira que aquela era a 'vacina de vento', e não o que tinha pedido.\n
-        A enfermeira, constrangida com o ocorrido, pediu mil desculpas e foi correndo pegar a vacina OXFORD.\n
-        Quando foi aplicada a vacina, ao qual já vem com um microchipe de rastreamento dentro,\n de repente {nome} se sentiu estranho, como se algo estivesse acontecendo com seu corpo.\n
-        {nome} virou um jacaré comunista seguidor de Putin diante dos olhos da enfermeira. Mas, porém, contudo, todavia, entretanto, no entanto, não obstante,\n
-        {nome} estava naquele momento imunizado contra covid-19, e era tudo o que importava.
-        """)
-
+        print(f"\n{nome}, prontamente avisou a enfermeira que aquela era a 'vacina de vento', e não o que tinha pedido.\nA enfermeira, constrangida com o ocorrido, pediu mil desculpas e foi correndo pegar a vacina OXFORD.\nQuando foi aplicada a vacina, ao qual já vem com um microchipe de rastreamento dentro,\nde repente {nome} se sentiu estranho, como se algo estivesse acontecendo com seu corpo.\n{nome} virou um jacaré comunista seguidor de Putin diante dos olhos da enfermeira. Mas, porém, contudo, todavia, entretanto, no entanto, não obstante,\n{nome} estava naquele momento imunizado contra covid-19, e era tudo o que importava.\n")
         imprime_mensagem_vencedor(f"Parabéns, você foi vacinado e venceu!!! Agora {nome} é um jacaré comunista microchipado, e será rastreado pelo nova ordem mundial pelo resto da vida :)")
+
     elif (codigo_vacina == 3):
-        print(f"""
-        {nome}, prontamente avisou a enfermeira que aquela era a 'vacina de vento', e não o que tinha pedido.\n
-        A enfermeira, constrangida com o ocorrido, pediu mil desculpas e foi correndo pegar a vacina PFIZER.\n
-        Quando foi aplicada a vacina, ao qual muitos médicos diziam que utilizava uma técnologia nova que podem alterar o DNA e RNA,\n 
-        de repente {nome} se sentiu estranho, como se algo estivesse acontecendo com seu corpo.\n
-        {nome} virou um jacaré mutante socialista de Iphone diante dos olhos da enfermeira. Mas, porém, contudo, todavia, entretanto, no entanto, não obstante,\n
-        {nome} estava naquele momento imunizado contra covid-19, e era tudo o que importava.
-        """)
-
+        print(f"{nome}, prontamente avisou a enfermeira que aquela era a 'vacina de vento', e não o que tinha pedido.\nA enfermeira, constrangida com o ocorrido, pediu mil desculpas e foi correndo pegar a vacina PFIZER.\nQuando foi aplicada a vacina, ao qual muitos médicos diziam que utilizava uma técnologia nova que pode alterar o DNA e RNA,\nde repente {nome} se sentiu estranho, como se algo estivesse acontecendo com seu corpo.\n{nome} virou um jacaré mutante socialista de Iphone diante dos olhos da enfermeira. Mas, porém, contudo, todavia, entretanto, no entanto, não obstante,\n{nome} estava naquele momento imunizado contra covid-19, e era tudo o que importava.\n")
         imprime_mensagem_vencedor(f"Parabéns, você foi vacinado e venceu!!! Agora {nome} é um jacaré mutante socialista, e será estudado pelo Instituto Butantan :)")
-    elif (codigo_vacina == 4):
-        print(f"""
-        {nome}, prontamente avisou a enfermeira que aquela era a 'vacina de vento', e não o que tinha pedido.\n
-        A enfermeira, constrangida com o ocorrido, pediu mil desculpas e foi correndo pegar a vacina Sputnik V.\n
-        Quando foi aplicada a vacina, ao qual muitos médicos diziam que por ser uma ditadura que gosta de manipular dados para favorecer sua ideologia,\n 
-        de repente {nome} se sentiu estranho, como se algo estivesse acontecendo com seu corpo.\n
-        {nome} virou um jacaré comunista, espião de Putin e adorador de xi jinping diante dos olhos da enfermeira. Mas, porém, contudo, todavia, entretanto, no entanto, não obstante,\n
-        {nome} estava naquele momento imunizado contra covid-19, e era tudo o que importava.
-        """)
 
+    elif (codigo_vacina == 4):
+        print(f"\n{nome}, prontamente avisou a enfermeira que aquela era a 'vacina de vento', e não o que tinha pedido.\nA enfermeira, constrangida com o ocorrido, pediu mil desculpas e foi correndo pegar a vacina Sputnik V.\nQuando foi aplicada a vacina, ao qual muitos médicos diziam que por ser uma ditadura que gosta de manipular dados para favorecer sua ideologia,\nde repente {nome} se sentiu estranho, como se algo estivesse acontecendo com seu corpo.\n{nome} virou um jacaré comunista, espião de Putin e adorador de xi jinping diante dos olhos da enfermeira. Mas, porém, contudo, todavia, entretanto, no entanto, não obstante,\n{nome} estava naquele momento imunizado contra covid-19, e era tudo o que importava.\n")
         imprime_mensagem_vencedor(f"Parabéns, você foi vacinado e venceu!!! Agora {nome} é um jacaré comunista espião de Putin em solo tupiniquim :)")
+    
     else:
-        imprime_mensagem_perdedor("Puxa, {nome} recebeu a 'vacina de vento', saiu todo feliz, porém pegou coronga e se ferrou :( VOCÊ PERDEU!!!")
+        imprime_mensagem_perdedor(f"Puxa, {nome} recebeu a 'vacina de vento', saiu todo feliz, porém pegou coronga e se ferrou :( VOCÊ PERDEU!!!")
 
 
 
@@ -202,7 +150,7 @@ def historia_posto_saude(nome, profissao):
     Antes de aplicarem a vacina, a enfermeira o avisou que a farmacêutica da vacina tem 'isenção de responsabilidade',\n 
     ou seja, não tem responsabilidade por eventuais efeitos colaterais da vacina. {nome} achou tudo muito estranho.\n
     - "Isso é estrano, não? seria como se eu vende-se uma TV pra você, e quando você liga-se em sua casa, eu fala-se 'problema é seu!'...", disse {nome}.
-    - "Pera aí, você é um negacionista terra planista minion? Vou ligar pra policia das idéias é já!...", disse a enfermeira.
+    - "Pera aí, você é um negacionista terra planista minion? Vou ligar pra polícia das ideias é já!...", disse a enfermeira.
     - "Não, não, calma...não sou isso não, apenas estava comentando o que um colega meu me disse outro dia.", disse {nome} nervoso com a situação.
     - "A tá. Entendi. Mas e aí, vai tomar a vacina ou não?"
     """)
@@ -215,7 +163,7 @@ def historia_posto_saude(nome, profissao):
     else:
         print(f"""
         Puxa, como {nome} não se vacinou, pegou coronga na lanchonete e se ferrou :(\n
-        Porém, devido ao tratamento precoce, felizmente {nome} conseguiu se livrar do coronga.\n
+        Porém, devido ao tratamento precoce com Hidroxicloroquina/Azitromicina/Ivermectina/Zinco/Vitamina D, felizmente {nome} conseguiu se livrar do coronga.\n
         Entretanto, infelizmente {nome} morre de cancer pouco tempo depois.\n
         Devido a pandemia, seu tratamento de quimioterapia foi cancelado pois só existia uma doença no mundo em 2020.\n
         """)
