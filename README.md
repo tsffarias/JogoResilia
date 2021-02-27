@@ -1,4 +1,5 @@
 # _**Jogo Resilia**_ 🕹️ 
+> Jogo satírico sobre a pandemia do covid-19 no Brasil.
 
 ## **Título: O JACARÉ MUTANTE COMUNISTA :crocodile:**
 
@@ -27,3 +28,7 @@
 - Comer comida em pé pega covid
 - Ir pra faculdade
 - Não se vacinar
+---
+## **Fluxograma História**
+
+![Markdown](fluxograma_jacare_mutante_comunista.png)

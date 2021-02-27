@@ -1,3 +1,9 @@
+'''
+Autor: Thiago S. Farias
+Título: O Jacaré Mutante Comunista
+Projeto Módulo 1 - Jogo satírico sobre a pandemia do covid-19 no Brasil.
+'''
+
 def linha():
 	print("="*70)
 
