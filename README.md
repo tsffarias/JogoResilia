@@ -3,7 +3,7 @@
 
 ## **Título: O JACARÉ MUTANTE COMUNISTA :crocodile:**
 
-**Enredo:** Cidadão se vê ferrado e desempregado na pandemia, e escolhe suas unicas opções de arrumar emprego, ser motoboy ou ser caminhoneiro. Fica com fome e vai a lanchonete que ele ama, e recebe a noticia tão aguardada que todos poderiam enfim se vacinar naquele dia. O cidadão corre para o posto de saúde para conseguir se vacinar, e algo muito amedrontador ocorre naquele lugar.
+**Enredo:** Cidadão se vê ferrado e desempregado na pandemia, e escolhe suas únicas opções de arrumar emprego, ser motoboy ou ser caminhoneiro. Fica com fome e vai a lanchonete que tanto ama, a Pobr's fast food, e recebe a notícia tão aguardada que todos poderiam enfim se vacinar naquele dia. O cidadão corre para o posto de saúde para conseguir se vacinar, e algo muito amedrontador ocorre naquele lugar.
 
 ---
 ## **Locais**
@@ -17,13 +17,13 @@
 - Vovó
 - Enfermeira
 ---
-## **Condições de vitória** :trophy:
+## **Condições de Vitória** :trophy:
 - Tomar vacina CORONAVAC
 - Tomar vacina OXFORD
 - Tomar vacina PFIZER
 - Tomar vacina Sputnik V
 ---
-## **Condições de derrota** :skull:
+## **Condições de Derrota** :skull:
 - Ir pra casa da vovó
 - Comer comida em pé pega covid
 - Ir pra faculdade
