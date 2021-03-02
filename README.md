@@ -14,7 +14,9 @@
 - Lanchonete Pobr's fast food
 ---
 ## **Personagens**
-- Usuário
+- Diego, mais conhecido como Diegão Guedes da Economia
+- Patricky, o Agroecologista da Federel
+- Gabriela, a Geofísica Francesa
 - Vovó
 - Enfermeira
 ---
