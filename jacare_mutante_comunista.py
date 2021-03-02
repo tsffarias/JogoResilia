@@ -101,7 +101,7 @@ def historia_lanchonete(personagem, profissao, codigo):
         print(f"\nAo comer em pé, {personagem} se esqueceu da notícia que assistiu na rede gróbis, ao qual falava que em estabelecimentos como aquele,\nao ficar em pé pega coronga, mas se está {palavra}, está a salvo de todas as doenças do mundo. Como ficou de pé, pegou Coronga e se ferrou :(")
         imprime_mensagem_perdedor("\nPuxa, como você não tem fisico de atleta, você morreu!!!")
     else:
-        print(f"""\nComendo tranquilamento {palavra} o seu hamburgão, quando de repente uma ótima notícia apareceu no canal da rede gróbis, em uma TV a sua frente.\nUm militante falava que naquele mesmo dia, perto de onde estava {personagem}, havia um posto de saúde que estava vacinando pessoas contra peste chinesa.\n{personagem}, uma pessoa muito prudente e inteligente, perguntou se seria uma boa coisa sair daquele lugar e ir se vacinar logo, para que voltasse a ter uma vida minimamente normal.\nPorém, ao mesmo tempo lembrou que seu semestre na universidade ia começar hoje, mais precisamente daqui a 1 hora teria sua primeira aula.\n""")
+        print(f"""\nComendo tranquilamento {palavra} o seu hamburgão, quando de repente uma ótima notícia apareceu no canal da rede gróbis, em uma TV a sua frente.\nUm militante falava que naquele mesmo dia, perto de onde estava {personagem}, havia um posto de saúde que estava vacinando pessoas contra peste chinesa.\n{personagem}, uma pessoa muito prudente e inteligente, perguntou se seria uma boa coisa sair daquele lugar e ir se vacinar logo, para que voltasse a ter uma vida minimamente normal.\nPorém, ao mesmo tempo, lembrou que recebeu uma proposta para ser docente em uma universidade. No entanto, o curso não seria on-line e sim presencial, e que precisava dar uma resposta a universidade até o dia de hoje, mais especificamente daqui a 1 hora.\n""")
 
         linha()
         resposta = int(input("Você quer ir se vacinar agora ou ir pra universidade? (1) vacinar (2) universidade\nDigite o código = "))
@@ -123,7 +123,7 @@ def historia_universidade(personagem, codigo):
 
     print(f"""
     Ao chegar na universidade, {personagem} se deu conta que fica quase impossível manter o distanciamento social naquele lugar que só tem balbúrdia.\n
-    Porém, como sempre vai a academia 3 dias por semana, pensou que se pegar coronga, não iria sentir quase nada e poderia seguir com seus estudos.\n
+    Porém, como sempre vai a academia 3 dias por semana, pensou que se pegar coronga, não iria sentir quase nada e poderia seguir com seus estudos e suas aulas.\n
     Dito e feito, ou quase isso, {personagem} pegou coronga sim, mas vai estudar {palavra} assim como faz em casa, só que estará {palavra} em um lugar mais pacífico.\n
     Um cemitério :(
     """)
