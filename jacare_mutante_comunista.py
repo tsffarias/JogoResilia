@@ -1,11 +1,11 @@
 '''
 Autor: Thiago S. Farias
-Título: O Jacaré Mutante Comunista
+Título: O Jacaré Mutante
 Projeto Módulo 1 - Jogo satírico sobre a pandemia do covid-19 no Brasil.
 '''
 
 def linha():
-	print("="*70)
+	print("="*110)
 
 def escolhe_personagem():
     print("Antes de começarmos, escolha qual personagem você quer ser.")
@@ -274,7 +274,12 @@ def imprime_mensagem_perdedor(mensagem):
 
 while (True):
     linha()
-    print("O JACARÉ MUTANTE COMUNISTA".center(70))
+    print("""
+   ___         _     _      ___     _     ___   ___     __  __   _   _   _____     _     _  _   _____   ___ 
+  / _ \     _ | |   /_\    / __|   /_\   | _ \ | __|   |  \/  | | | | | |_   _|   /_\   | \| | |_   _| | __|
+ | (_) |   | || |  / _ \  | (__   / _ \  |   / | _|    | |\/| | | |_| |   | |    / _ \  | .` |   | |   | _| 
+  \___/     \__/  /_/ \_\  \___| /_/ \_\ |_|_\ |___|   |_|  |_|  \___/    |_|   /_/ \_\ |_|\_|   |_|   |___|
+    """)
     linha()
 
     personagem, codigo = escolhe_personagem()

@@ -2,7 +2,7 @@
 
 > Jogo satírico sobre a pandemia do covid-19 no Brasil.
 
-## **Título: O JACARÉ MUTANTE COMUNISTA :crocodile:**
+## **Título: O JACARÉ MUTANTE :crocodile:**
 
 **Enredo:** Cidadão se vê ferrado e desempregado na pandemia, e escolhe suas únicas opções de arrumar emprego, ser motoboy ou ser caminhoneiro. Fica com fome e vai a lanchonete que tanto ama, a Pobr's fast food, e recebe a notícia tão aguardada que todos poderiam enfim se vacinar naquele dia. O cidadão corre para o posto de saúde para conseguir se vacinar, e algo muito amedrontador ocorre naquele lugar.
 
